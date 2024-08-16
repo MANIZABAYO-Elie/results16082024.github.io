@@ -5,13 +5,20 @@ body{
 }
 .container{
 display:flex;
+
+font-size: 20px;
 }
 .container1{
 background-color: rgba(0, 0, 255, 0.681);
 border-radius: 20px;
 text-align: center;
 color: wheat;
+width: 350px;
 
+
+}
+.p1{
+    
 }
 .score{
     color: aliceblue;
@@ -24,6 +31,7 @@ color: wheat;
     border-top: 20px;
     margin: 10% auto;
     position: relative;
+
     
     
 }
@@ -36,13 +44,15 @@ color: wheat;
 }
 .container2{
     margin-left: 30px;
-    width: 50%;
+    width: 30%;
+    
 }
 .fa-message-minus{
     color: green;
 }
 .fa-eye{
     color: rgba(0, 47, 255, 0.778);
+    
 }
 .visual{
     background-color: rgba(0, 0, 255, 0.166);
@@ -65,7 +75,31 @@ color: wheat;
     padding-bottom: 5px;
     text-transform: lowercase;
     font-size: 11px;
+    color:rgb(223, 8, 33)  ;
 }
+.memory{
+    background-color: rgba(223, 8, 108, 0.082);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: lowercase;
+    font-size: 11px;
+    background-color: rgba(255, 255, 0, 0.758)  ;
+}
+.verbal{
+    background-color: rgba(51, 223, 8, 0.911);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: lowercase;
+    font-size: 11px;
+    
+}
+
 .fa-bolt{
     color:rgba(223, 8, 33, 0.566) ;
     
